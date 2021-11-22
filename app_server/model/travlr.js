@@ -10,4 +10,4 @@ const tripSchema = new mongoose.Schema({
     image: {type: string, requrired: true},
     description: {type: string, requrired: true}
 });
-mongoose.model("trips',tripSchema);
+mongoose.model('trips',tripSchema);
