@@ -39,8 +39,8 @@ const travelList = (req,res) => {
            }
            renderTravelist(req,res,body);
        }
-    }
-}
+   )}
+
 
 module.exports = {
     travelList
