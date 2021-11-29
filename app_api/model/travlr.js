@@ -1,13 +1,13 @@
 const mongoose = require('mongoose');
 //trip schema
 const tripSchema = new mongoose.Schema({
-    code: { type: string, requrired: true, index: true},
-    name: {type: string, requrired: true, index: true},
-    length: {type: string, requrired: true},
+    code: { type: String, requrired: true, index: true},
+    name: {type: String, requrired: true, index: true},
+    length: {type: String, requrired: true},
     start: {type: Date, requrired: true},
-    resort: {type: string, requrired: true},
-    perperson: {type: string, requrired: true},
-    image: {type: string, requrired: true},
-    description: {type: string, requrired: true}
+    resort: {type: String, requrired: true},
+    perperson: {type: String, requrired: true},
+    image: {type: String, requrired: true},
+    description: {type: String, requrired: true}
 });
 mongoose.model('trips',tripSchema);
