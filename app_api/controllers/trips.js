@@ -44,7 +44,7 @@ const tripsFindCode = async(req, res) =>{
         });
 }
 
-modle.exports = {
+module.exports = {
     tripsList,
     tripsFindCode
 };
