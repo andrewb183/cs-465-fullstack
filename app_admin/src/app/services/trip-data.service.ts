@@ -46,7 +46,7 @@ export class TripDataService {
     .toPromise()
     .then(response => response.json() as Trip[])
     .catch(this.handleError);
-   
+   }
 
     private handleError(error: any): Promise<any> {
       console.error('Something has gone wrong', error); // for demo purposes only

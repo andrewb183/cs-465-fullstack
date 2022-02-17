@@ -5,6 +5,9 @@
  <img src="assets/images/{{ trip.image }}"
  alt="trip thumbnail"
  class="card-img-top">
+ <app-trip-card [trip]="trip"
+ class="card-deck mt-2"></app-trip-card>
+
  <div class="card-body">
  <h6 class="card-subtitle mb-2 text-muted">
  {{ trip.resort }}
